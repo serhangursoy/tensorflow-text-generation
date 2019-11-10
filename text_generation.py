@@ -15,10 +15,10 @@ MAIN_PARAMS = { "local": True,
                 "sequence_length": 100,
                 "batch_size": 64,
                 "buffer_size": 10000,
-                "embedding_dimensions": 64,
-                "rnn_unit_count": 128,
-                "epoch_count": 1,
-                "generation_length": 1000
+                "embedding_dimensions": 256,
+                "rnn_unit_count": 1024,
+                "epoch_count": 50,
+                "generation_length": 2000
 }
 
 def build_model(vocab_size, embedding_dim, rnn_units, batch_size):
