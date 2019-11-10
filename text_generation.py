@@ -5,7 +5,7 @@ import os
 import time
 
 # Required for eager execution to use take operation.
-tf.enable_eager_execution()
+# tf.enable_eager_execution()
 
 # We will read every single file as text in this path. It's relative to execution
 # Give only folder name
@@ -13,7 +13,7 @@ MAIN_PARAMS = { "local": True,
                 "source_path": "ataturk",
                 "remote": ["shakespeare.txt","https://storage.googleapis.com/download.tensorflow.org/data/shakespeare.txt"],
                 "sequence_length": 100,
-                "batch_size": 64,
+                "batch_size": 16,
                 "buffer_size": 10000,
                 "embedding_dimensions": 256,
                 "rnn_unit_count": 1024,
