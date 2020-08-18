@@ -1,4 +1,7 @@
-# Tensorflow Text Generation
+
+<div align="center">
+    <img src="http://tw.greywool.com/i/nyoZ5.jpg" width="800px"</img> 
+</div>
 
 This is a simple text generation code purely based on the tutorial on the Tensorflow page. In the future, I'm planning to add more examples.
 
